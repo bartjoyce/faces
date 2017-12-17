@@ -38,7 +38,16 @@ module.exports = {
 				query: {
 					presets: ['env', 'react']
 				}
-			}
+			},
+      {
+        test: /\.csv$/,
+        loader: 'csv-loader',
+        options: {
+          dynamicTyping: true,
+          header: true,
+          skipEmptyLines: true
+        }
+      }
 		]
 	},
 	plugins: plugins

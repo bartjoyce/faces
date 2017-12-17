@@ -1,0 +1,77 @@
+/* CM Typewriter */
+@font-face {
+  font-family: 'CM Typewriter';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/CMUTypewriter-Light.woff') format('woff'),
+       url('/fonts/CMUTypewriter-Light.woff2') format('woff2');
+}
+
+/* CM Serif */
+@font-face {
+  font-family: 'CM Serif';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/CMUSerif-Roman.woff') format('woff'),
+       url('/fonts/CMUSerif-Roman.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CM Serif';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/CMUSerif-Bold.woff') format('woff'),
+       url('/fonts/CMUSerif-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CM Serif';
+  font-style: italic;
+  font-weight: normal;
+  src: url('/fonts/CMUSerif-Italic.woff') format('woff'),
+       url('/fonts/CMUSerif-Italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CM Serif';
+  font-style: italic;
+  font-weight: bold;
+  src: url('/fonts/CMUSerif-BoldItalic.woff') format('woff'),
+       url('/fonts/CMUSerif-BoldItalic.woff2') format('woff2');
+}
+
+
+/* CM Bright */
+@font-face {
+  font-family: 'CM Bright';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/CMUBright-Roman.woff') format('woff'),
+       url('/fonts/CMUBright-Roman.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CM Bright';
+  font-style: normal;
+  font-weight: bold;
+  src: url('/fonts/CMUBright-Bold.woff') format('woff'),
+       url('/fonts/CMUBright-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CM Bright';
+  font-style: italic;
+  font-weight: normal;
+  src: url('/fonts/CMUBright-Oblique.woff') format('woff'),
+       url('/fonts/CMUBright-Oblique.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'CM Bright';
+  font-style: italic;
+  font-weight: bold;
+  src: url('/fonts/CMUBright-BoldOblique.woff') format('woff'),
+       url('/fonts/CMUBright-BoldOblique.woff2') format('woff2');
+}
+
+body {
+  font-family: 'CM Typewriter', serif;
+}
+
+.date {
+  font-family: 'CM Serif';
+}

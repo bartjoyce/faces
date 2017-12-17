@@ -2,7 +2,7 @@ import React from 'react'
 import { createStore, applyMiddleware } from 'redux'
 import { Provider } from 'react-redux'
 import reduxThunk from 'redux-thunk'
-import rootReducer from '../reducers/root'
+import reducer from '../reducer'
 
 import AppComponent from '../components/App'
 
@@ -11,7 +11,7 @@ export default class App extends React.Component {
     super(props)
 
     const store = createStore(
-      rootReducer,
+      reducer,
       null,
       applyMiddleware(reduxThunk)
     )
