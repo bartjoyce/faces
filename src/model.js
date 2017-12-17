@@ -14,6 +14,7 @@ const personById = new TableKeyIndex(people, person => person.id)
 
 const encountersByPersonId = new TableNonKeyIndex(encounters, encounter => encounter.personId)
 const encountersByDayPlaceId = new TableNonKeyIndex(encounters, encounter => encounter.dayPlaceId)
+const dayPlacesByDayId = new TableNonKeyIndex(dayPlaces, dayPlace => dayPlace.dayId)
 
 const peopleSearcher = new StringSearcher(people, item => item.name)
 
@@ -30,6 +31,7 @@ export {
 
   encountersByPersonId,
   encountersByDayPlaceId,
+  dayPlacesByDayId,
 
   peopleSearcher
 }
