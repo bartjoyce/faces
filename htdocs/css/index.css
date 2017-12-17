@@ -1,14 +1,14 @@
 /* CM Typewriter */
-@font-face {
+/*@font-face {
   font-family: 'CM Typewriter';
   font-style: normal;
   font-weight: normal;
   src: url('/fonts/CMUTypewriter-Light.woff') format('woff'),
        url('/fonts/CMUTypewriter-Light.woff2') format('woff2');
-}
+}*/
 
 /* CM Serif */
-@font-face {
+/*@font-face {
   font-family: 'CM Serif';
   font-style: normal;
   font-weight: normal;
@@ -35,11 +35,11 @@
   font-weight: bold;
   src: url('/fonts/CMUSerif-BoldItalic.woff') format('woff'),
        url('/fonts/CMUSerif-BoldItalic.woff2') format('woff2');
-}
+}*/
 
 
 /* CM Bright */
-@font-face {
+/*@font-face {
   font-family: 'CM Bright';
   font-style: normal;
   font-weight: normal;
@@ -66,12 +66,13 @@
   font-weight: bold;
   src: url('/fonts/CMUBright-BoldOblique.woff') format('woff'),
        url('/fonts/CMUBright-BoldOblique.woff2') format('woff2');
-}
+}*/
 
 body {
-  font-family: 'CM Typewriter', serif;
+  /*font-family: 'CM Typewriter', serif;*/
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
 .date {
-  font-family: 'CM Serif';
+  /*font-family: 'CM Serif';*/
 }

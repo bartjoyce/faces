@@ -1,24 +1,5 @@
 const webpack = require('webpack')
 const path = require('path')
-const fs = require('fs')
-
-const isProductionBuild = (process.argv.indexOf('--production') !== -1)
-
-var plugins = []
-
-if (isProductionBuild) {
-	plugins.push(
-		// Strip warning/error messages from React
-		new webpack.DefinePlugin({
-			'process.env': {
-				NODE_ENV: JSON.stringify('production')
-			}
-		}),
-
-		// Minify output using UglifyJs
-		new webpack.optimize.UglifyJsPlugin()
-	)
-}
 
 module.exports = {
 	context: __dirname,
@@ -49,6 +30,5 @@ module.exports = {
         }
       }
 		]
-	},
-	plugins: plugins
+	}
 }
